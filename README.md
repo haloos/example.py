@@ -1,2 +1,2 @@
-# example.py
+
 Practicing Python 
