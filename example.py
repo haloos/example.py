@@ -1,9 +1,9 @@
-colors= ["Purple", "Orange", "Green"] 
+locations = []
 
-guess = input("Guess a color:")  
+la = (34.0522, 188.2437)
+chicago = (41.8781, 87.6298) 
 
-if guess in colors :
-  print("You guessed correctly!")  
-else: 
-  print("Wrong! Try again.") 
-  
+locations.append(la)
+locations.append(chicago) 
+
+print(locations)
