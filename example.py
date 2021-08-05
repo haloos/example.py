@@ -15,4 +15,6 @@ for show in tv:
 for show in coms:
     show = show.upper() 
     all_shows.append(show)  
-    
+
+print(all_shows)
+
