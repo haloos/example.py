@@ -1,2 +1,18 @@
-for i in range(100): 
-  print("Hello, World!")
+tv =  ["Got", "Narcos",
+      "Vice"]  
+
+coms = ["Arrested Development",
+        "friends", 
+        "Always Sunny"]  
+
+all_shows = []  
+
+
+for show in tv:
+  show = show.upper()
+  all_shows.append(show) 
+
+for show in coms:
+    show = show.upper() 
+    all_shows.append(show)  
+    
