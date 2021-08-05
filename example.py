@@ -1,9 +1,8 @@
-locations = []
+n1 = input("Enter a noun:") 
+v = input("Enter a verb:") 
+adj = input("Enter a adj:")
+n2 = input("Enter a noun:") 
 
-la = (34.0522, 188.2437)
-chicago = (41.8781, 87.6298) 
+r = """The {} {} the {} {} """.format(n1, v, adj, n2) 
 
-locations.append(la)
-locations.append(chicago) 
-
-print(locations)
+print(r) 
