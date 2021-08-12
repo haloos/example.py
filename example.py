@@ -1,4 +1,3 @@
-x = 10
-while x >= 0:
-    print(x)
-    x -= 1
+import statistics
+
+print(statistics.mean([1,2, 2, 3]))
