@@ -1,20 +1,10 @@
-tv =  ["Got", "Narcos",
-      "Vice"]  
+list1 = [8, 19, 148, 4]
+list2 = [9, 1, 33, 83]
+list3 = []
 
-coms = ["Arrested Development",
-        "friends", 
-        "Always Sunny"]  
+for i in list1:
+    for j in list2:
+        mult = i * j
+        list3.append(i * j)
 
-all_shows = []  
-
-
-for show in tv:
-  show = show.upper()
-  all_shows.append(show) 
-
-for show in coms:
-    show = show.upper() 
-    all_shows.append(show)  
-
-print(all_shows)
-
+print(list3)
