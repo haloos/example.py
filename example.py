@@ -1,3 +1,5 @@
-import statistics
-
-print(statistics.mean([1,2, 2, 3]))
+x = 10
+while x > 0:
+  print('{}'.format(x)) 
+  x  -= 1
+  print("Happy New Year!")
