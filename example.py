@@ -1,5 +1,3 @@
-x = 10
-while x > 0:
-  print('{}'.format(x)) 
-  x  -= 1
-  print("Happy New Year!")
+for i in range(0,100):
+  print(i)
+  break 
